@@ -1,5 +1,9 @@
+
 <?php
-include ("db.inc.php");
+$host = "localhost";
+$dbname = "db_mantenimiento";
+$username = "prueba";
+$password = "c8u$7ShG";
 
 /*
 $connec = mysqli_connect($servername,$username,$password,$dbname);
