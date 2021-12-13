@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 // Create database
 $sql = "CREATE DATABASE $dbname";
 if($conn->query($sql)===TRUE){
-    echo "Conectado correctamente a la Base de datos reportes";
+    echo "Conectado correctamente a la Base de datos db_mantenimiento";
 }else{
     echo "Error al crear la Base de datos ". $conn->error;
 }
@@ -39,7 +39,7 @@ try {
     // use exec() because no results are returned
     $conn1->exec($sql1);
      
-    echo "Tabla ventas creada correctamente";
+    echo "Tabla c_contreras   creada correctamente";
     
   } catch(PDOException $e) {
     echo $sql1 . "<br>" . $e->getMessage();
